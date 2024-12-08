@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>เรซูเม่</title>
     <style>
-        /* พื้นหลังและการตั้งค่าทั่วไป */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -27,7 +26,6 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             overflow: hidden;
         }
-        /* ส่วนหัว */
         .header {
             text-align: center;
             padding: 50px 20px;
@@ -49,7 +47,6 @@
         .header p {
             font-size: 1.2rem;
         }
-        /* เมนูการเลื่อน */
         nav {
             display: flex;
             justify-content: center;
@@ -71,7 +68,7 @@
         nav a:hover {
             background-color: #0078d7;
         }
-        /* ส่วนที่สามารถเลื่อนถึงได้ */
+
         section {
             padding: 50px 20px;
             margin: 30px 0;
@@ -110,7 +107,7 @@
         ul li strong {
             color: #0078d7;
         }
-        /* โปรเจค (Projects) */
+
         .projects-grid {
             display: flex;
             flex-wrap: wrap;
@@ -152,14 +149,14 @@
         .project-item a:hover {
             color: #005fa3;
         }
-        /* การเลื่อนหน้าอย่างเรียบ */
+
         html {
             scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
-    <!-- เมนูการเลื่อน -->
+
     <nav>
         <a href="#profile">โปรไฟล์</a>
         <a href="#contact">ข้อมูลติดต่อ</a>
@@ -169,14 +166,14 @@
     </nav>
 
     <div class="container">
-        <!-- ส่วนหัว (Profile) -->
+
         <section id="profile" class="header">
             <img src="profile-pic.jpg" alt="รูปของฉัน">
-            <h1>ชื่อ-นามสกุล</h1>
+            <h1>Natthinan Phanmart</h1>
             <p>ตำแหน่งที่ต้องการ: <strong>นักพัฒนาเว็บ</strong></p>
         </section>
 
-        <!-- ข้อมูลติดต่อ -->
+
         <section id="contact">
             <h2>ข้อมูลติดต่อ</h2>
             <ul>
@@ -187,7 +184,7 @@
             </ul>
         </section>
 
-        <!-- การศึกษา -->
+
         <section id="education">
             <h2>การศึกษา</h2>
             <ul>
@@ -195,7 +192,7 @@
             </ul>
         </section>
 
-        <!-- ทักษะ -->
+
         <section id="skills">
             <h2>ทักษะ</h2>
             <div class="skills-grid">
@@ -226,7 +223,7 @@
             </div>
         </section>
 
-        <!-- โปรเจค -->
+
         <section id="projects">
             <h2>โปรเจคที่ทำ</h2>
             <div class="projects-grid">
